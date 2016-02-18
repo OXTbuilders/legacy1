@@ -10,6 +10,8 @@
 /etc/default/*
 !/etc/apache2
 /etc/apache2/*
+!/etc/init.d
+/etc/init.d/*
 !/home
 /home/*
 !/home/buildbot
@@ -26,6 +28,7 @@
 !/etc/hosts
 !/etc/default/*
 !/etc/apache2/*
+!/etc/init.d/buildbot
 !/home/buildbot/*
 !/home/buildbot/legacy1/openxt-legacy1/build/*
 
