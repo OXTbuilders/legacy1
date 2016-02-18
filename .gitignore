@@ -10,37 +10,32 @@
 /etc/default/*
 !/etc/apache2
 /etc/apache2/*
-!/var
-/var/*
-!/var/lib
-/var/lib/*
-!/var/lib/buildbot
-/var/lib/buildbot/*
-!/var/lib/buildbot/masters
-/var/lib/buildbot/masters/*
-!/var/lib/buildbot/slaves
-/var/lib/buildbot/slaves/*
 !/home
 /home/*
-!/home/build
-/home/build/*
-!/home/build/openxt
-/home/build/openxt/*
+!/home/buildbot
+/home/buildbot/*
+!/home/buildbot/legacy1
+/home/buildbot/legacy1/*
+!/home/buildbot/legacy1/openxt-legacy1
+/home/buildbot/legacy1/openxt-legacy1/*
+!/home/buildbot/legacy1/openxt-legacy1/build
+/home/buildbot/legacy1/openxt-legacy1/build/*
 
 # Un-ignore the files/directories we want
 !/.gitignore
 !/etc/hosts
 !/etc/default/*
 !/etc/apache2/*
-!/var/lib/buildbot/masters/*
-!/var/lib/buildbot/slaves/*
-!/home/build/openxt/*
+!/home/buildbot/*
+!/home/buildbot/legacy1/openxt-legacy1/build/*
 
 # Re-ignore the files/directories we don't want
 *~
 *.log
 *.pid
 *sqlite*
-/var/lib/buildbot/masters/buildmaster/.htpasswd
-/var/lib/buildbot/masters/buildmaster/gitpoller-workdir/
-/var/lib/buildbot/masters/buildmaster/openxt/
+/home/buildbot/master/.htpasswd
+/home/buildbot/master/openxt-legacy1/
+/home/buildbot/legacy1/openxt-legacy1/build/build/
+/home/buildbot/legacy1/openxt-legacy1/build/certs/
+/home/buildbot/legacy1/openxt-legacy1/build/git/
