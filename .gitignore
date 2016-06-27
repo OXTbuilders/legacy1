@@ -12,6 +12,8 @@
 /etc/apache2/*
 !/etc/init.d
 /etc/init.d/*
+!/etc/apt
+/etc/apt/*
 !/home
 /home/*
 !/home/buildbot
@@ -29,6 +31,7 @@
 !/etc/default/*
 !/etc/apache2/*
 !/etc/init.d/buildbot
+!/etc/apt/sources.list
 !/home/buildbot/*
 !/home/buildbot/legacy1/openxt-legacy1/build/*
 
